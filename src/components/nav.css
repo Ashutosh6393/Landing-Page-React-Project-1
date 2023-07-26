@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,500;1,700&display=swap');
+
+
+:root {
+    --red: #d01c28;
+    --gray: #4a4949;
+}
+
+
+
+.navbar button {
+    all: unset;
+    /*removes all the pre styles of html default button*/
+    padding: 6px 16px;
+    height: 32px;
+    background: var(--red);
+    color: white;
+    font-weight: 500;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+    font-weight: 500;
+    color: var(--gray)
+}
+
+
+.navbar img {
+    height: 42.75px;
+    width: 76px;
+}

@@ -1,0 +1,67 @@
+.container {
+    padding: 80px 0;
+    margin: 0 auto;
+    display: flex;
+    width: 1125px;
+    height: calc(100vh - 72px);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.hero-content h1 {
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 90px;
+}
+
+.hero-content p {
+    font-weight: 500;
+    color: #5a5959;
+    font-size: 16px;
+    width: 400px;
+}
+
+.hero-content button {
+    width: 50%;
+    all: unset;
+    padding: 6px 16px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#primary-btn {
+    background: var(--red);
+    color: white;
+    border: 2px solid var(--red);
+}
+
+#secondary-btn {
+    background: white;
+    color: var(--gray);
+    border: 2px solid black;
+    margin-left: 40px;
+}
+
+.hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.shop p {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.shop img {
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
